@@ -1,0 +1,52 @@
+body {
+    background-color:rgb(205, 240, 223);
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+    border-radius: 10px;
+    border: 2px solid rgb(72, 122, 122);
+}
+
+h1 {
+    color:rgb(57, 78, 78);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont;
+    padding-top: 20px;
+}
+
+#inputBox {
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#toFahrenheit, #toCelsius, label {
+    margin-top: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont;
+    font-size: 20px;
+}
+
+#convertBtn {
+    margin-top: 20px;
+    background-color: rgb(61, 255, 145);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#result {
+    margin: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont;
+    font-size: 20px;
+}
